@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.LOGO{
+    margin: 12px;
+    margin-top: 20px;
+    border: 3px solid;
+    padding: 1px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-color: rgb(202, 69, 69);
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    margin-top: -100px;
+    margin-left: 150px;
+    font-size: 80px;
+}
+.header{
+    background-color:#000;
+    flex: 1;
+    padding: 7px;
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;  
+    margin-top: 30px; 
+}
+.header ul li{
+    margin-left: 50px;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.header ul li a{
+    text-decoration: none;
+    color: aqua;
+
+}
+.header ul li:hover{
+    background: antiquewhite;
+    border-radius: 3px;
+}
+.header ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: aquamarine;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.header ul li:hover::after{
+    width: 100%;
+}
+.button{
+    text-align: center;
+    text-justify: auto;
+    width: 100px;
+    color: aqua;
+    font-size: 18px;
+    padding: 12px 10px;
+    background: aqua;
+    border: 10 solid #000;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.card{
+    text-align: center;
+    width: 220px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 15px 15px;   
+    margin-top: 2%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.card h5{
+    font-size: 38px;
+    color: black;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    color: aliceblue;
+    font-size: 8px;
+    text-shadow: 0 0 5px #999;
+}
+.card1{
+    background-image: url(asia-map.jpg);
+}
+.card2{
+    background-image: url(africa.jpg);
+}
+.card3{
+    background-image: url(america.jpeg);
+}
+.card4{
+    background-image: url(europe.jpg);
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #asia{
+    width: 20%;
+    border-radius: 50%;
+    height: 20%;
+    padding: 24px;
+}
+#america{
+    border-radius: 30%;
+    width: 10%;
+    height: 20%;
+    padding: 24px;
+}
+#africa{
+    border-radius: 30%;
+    width: 10%;
+    height: 30%;
+    padding: 24px;
+}
+span{
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
